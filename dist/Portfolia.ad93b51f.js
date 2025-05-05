@@ -679,11 +679,34 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
-var _outputCss = require("./output.css");
+var _navbar = require("./Navbar"); // ✅ Correct import of the component
+var _navbarDefault = parcelHelpers.interopDefault(_navbar);
+var _outputCss = require("./output.css"); // Tailwind CSS
 const App = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "text-center text-3xl font-bold text-blue-500",
-        children: "Hello React + Tailwind!"
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "font-josefin",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navbarDefault.default), {}, void 0, false, {
+                    fileName: "src/index.jsx",
+                    lineNumber: 10,
+                    columnNumber: 7
+                }, undefined),
+                " ",
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "text-center text-3xl font-bold text-blue-500 mt-10",
+                    children: "Hello React + Tailwind!"
+                }, void 0, false, {
+                    fileName: "src/index.jsx",
+                    lineNumber: 11,
+                    columnNumber: 7
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "src/index.jsx",
+            lineNumber: 9,
+            columnNumber: 9
+        }, undefined)
     }, void 0, false, {
         fileName: "src/index.jsx",
         lineNumber: 8,
@@ -694,7 +717,7 @@ _c = App;
 const root = (0, _client.createRoot)(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
     fileName: "src/index.jsx",
-    lineNumber: 15,
+    lineNumber: 20,
     columnNumber: 13
 }, undefined));
 var _c;
@@ -705,7 +728,7 @@ $RefreshReg$(_c, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","./output.css":"27lVT","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"dVPUn":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","./output.css":"27lVT","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./Navbar":"1NZhh"}],"dVPUn":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -18412,6 +18435,165 @@ function $da9882e673ac146b$var$ErrorOverlay() {
     return null;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["hiyDA","gYcKb"], "gYcKb", "parcelRequirea375", {}, null, null, "http://localhost:1234")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"1NZhh":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$d852 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$d852.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$d852.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _s = $RefreshSig$();
+const Navbar = ()=>{
+    _s();
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = (0, _react.useState)(false);
+    const toggleMobileMenu = ()=>{
+        setIsMobileMenuOpen(!isMobileMenuOpen);
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
+        className: "bg-blue-500 p-4 shadow-lg",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "max-w-7xl mx-auto flex items-center justify-between",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "text-white text-2xl font-bold",
+                        children: "My Portfolio"
+                    }, void 0, false, {
+                        fileName: "src/Navbar.jsx",
+                        lineNumber: 14,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "hidden md:flex space-x-6",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "#about",
+                                className: "text-white hover:text-gray-300",
+                                children: "About"
+                            }, void 0, false, {
+                                fileName: "src/Navbar.jsx",
+                                lineNumber: 20,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "#projects",
+                                className: "text-white hover:text-gray-300",
+                                children: "Projects"
+                            }, void 0, false, {
+                                fileName: "src/Navbar.jsx",
+                                lineNumber: 21,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "#contact",
+                                className: "text-white hover:text-gray-300",
+                                children: "Contact"
+                            }, void 0, false, {
+                                fileName: "src/Navbar.jsx",
+                                lineNumber: 22,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/Navbar.jsx",
+                        lineNumber: 19,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        onClick: toggleMobileMenu,
+                        className: "md:hidden text-white focus:outline-none",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                            xmlns: "http://www.w3.org/2000/svg",
+                            className: "h-6 w-6",
+                            fill: "none",
+                            stroke: "currentColor",
+                            viewBox: "0 0 24 24",
+                            strokeWidth: "2",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                strokeLinecap: "round",
+                                strokeLinejoin: "round",
+                                d: "M4 6h16M4 12h16M4 18h16"
+                            }, void 0, false, {
+                                fileName: "src/Navbar.jsx",
+                                lineNumber: 38,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/Navbar.jsx",
+                            lineNumber: 30,
+                            columnNumber: 11
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/Navbar.jsx",
+                        lineNumber: 26,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/Navbar.jsx",
+                lineNumber: 12,
+                columnNumber: 7
+            }, undefined),
+            isMobileMenuOpen && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "md:hidden mt-4 bg-blue-500 space-y-4 px-6 py-4",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                        href: "#about",
+                        className: "block text-white",
+                        children: "About"
+                    }, void 0, false, {
+                        fileName: "src/Navbar.jsx",
+                        lineNumber: 50,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                        href: "#projects",
+                        className: "block text-white",
+                        children: "Projects"
+                    }, void 0, false, {
+                        fileName: "src/Navbar.jsx",
+                        lineNumber: 51,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                        href: "#contact",
+                        className: "block text-white",
+                        children: "Contact"
+                    }, void 0, false, {
+                        fileName: "src/Navbar.jsx",
+                        lineNumber: 52,
+                        columnNumber: 11
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/Navbar.jsx",
+                lineNumber: 49,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/Navbar.jsx",
+        lineNumber: 11,
+        columnNumber: 5
+    }, undefined);
+};
+_s(Navbar, "QerECOS75+B7gv+k3q7FrDf39mc=");
+_c = Navbar;
+exports.default = Navbar;
+var _c;
+$RefreshReg$(_c, "Navbar");
+
+  $parcel$ReactRefreshHelpers$d852.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["hiyDA","gYcKb"], "gYcKb", "parcelRequirea375", {}, null, null, "http://localhost:1234")
 
 //# sourceMappingURL=Portfolia.ad93b51f.js.map

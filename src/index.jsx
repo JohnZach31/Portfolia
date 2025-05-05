@@ -1,12 +1,17 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import "./output.css";
-
+import Navbar from "./Navbar"; // ✅ Correct import of the component
+import "./output.css"; // Tailwind CSS
 
 const App = () => {
   return (
-    <div className="text-center text-3xl font-bold text-blue-500">
-      Hello React + Tailwind!
+    <div>
+        <div className="font-josefin">
+      <Navbar /> {/* ✅ Render the Navbar component */}
+      <div className="text-center text-3xl font-bold text-blue-500 mt-10">
+        Hello React + Tailwind!
+      </div>
+    </div>
     </div>
   );
 };
