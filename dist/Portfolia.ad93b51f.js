@@ -18455,129 +18455,134 @@ const Navbar = ()=>{
     const toggleMobileMenu = ()=>{
         setIsMobileMenuOpen(!isMobileMenuOpen);
     };
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
-        className: "bg-blue-500 p-4 shadow-lg",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "max-w-7xl mx-auto flex items-center justify-between",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "mt-5 font-m6x11",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
+            className: "bg-blue-500 p-4 shadow-lg",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "max-w-7xl mx-auto flex items-center justify-between",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "text-white text-2xl font-bold",
                         children: "My Portfolio"
                     }, void 0, false, {
                         fileName: "src/Navbar.jsx",
-                        lineNumber: 14,
+                        lineNumber: 15,
                         columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "hidden md:flex space-x-6",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "#about",
-                                className: "text-white hover:text-gray-300",
-                                children: "About"
-                            }, void 0, false, {
-                                fileName: "src/Navbar.jsx",
-                                lineNumber: 20,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "#projects",
-                                className: "text-white hover:text-gray-300",
-                                children: "Projects"
-                            }, void 0, false, {
-                                fileName: "src/Navbar.jsx",
-                                lineNumber: 21,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "#contact",
-                                className: "text-white hover:text-gray-300",
-                                children: "Contact"
-                            }, void 0, false, {
-                                fileName: "src/Navbar.jsx",
-                                lineNumber: 22,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/Navbar.jsx",
-                        lineNumber: 19,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                        onClick: toggleMobileMenu,
-                        className: "md:hidden text-white focus:outline-none",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-                            xmlns: "http://www.w3.org/2000/svg",
-                            className: "h-6 w-6",
-                            fill: "none",
-                            stroke: "currentColor",
-                            viewBox: "0 0 24 24",
-                            strokeWidth: "2",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                strokeLinecap: "round",
-                                strokeLinejoin: "round",
-                                d: "M4 6h16M4 12h16M4 18h16"
-                            }, void 0, false, {
-                                fileName: "src/Navbar.jsx",
-                                lineNumber: 38,
-                                columnNumber: 13
-                            }, undefined)
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/Navbar.jsx",
+                    lineNumber: 13,
+                    columnNumber: 7
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "hidden md:flex space-x-6",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            href: "#about",
+                            className: "text-white hover:text-gray-300",
+                            children: "About"
                         }, void 0, false, {
                             fileName: "src/Navbar.jsx",
-                            lineNumber: 30,
+                            lineNumber: 23,
                             columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            href: "#projects",
+                            className: "text-white hover:text-gray-300",
+                            children: "Projects"
+                        }, void 0, false, {
+                            fileName: "src/Navbar.jsx",
+                            lineNumber: 24,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            href: "#contact",
+                            className: "text-white hover:text-gray-300",
+                            children: "Contact"
+                        }, void 0, false, {
+                            fileName: "src/Navbar.jsx",
+                            lineNumber: 25,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/Navbar.jsx",
+                    lineNumber: 22,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                    onClick: toggleMobileMenu,
+                    className: "md:hidden text-white focus:outline-none",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                        xmlns: "http://www.w3.org/2000/svg",
+                        className: "h-6 w-6",
+                        fill: "none",
+                        stroke: "currentColor",
+                        viewBox: "0 0 24 24",
+                        strokeWidth: "2",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                            strokeLinecap: "round",
+                            strokeLinejoin: "round",
+                            d: "M4 6h16M4 12h16M4 18h16"
+                        }, void 0, false, {
+                            fileName: "src/Navbar.jsx",
+                            lineNumber: 41,
+                            columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Navbar.jsx",
-                        lineNumber: 26,
-                        columnNumber: 9
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "src/Navbar.jsx",
-                lineNumber: 12,
-                columnNumber: 7
-            }, undefined),
-            isMobileMenuOpen && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "md:hidden mt-4 bg-blue-500 space-y-4 px-6 py-4",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: "#about",
-                        className: "block text-white",
-                        children: "About"
-                    }, void 0, false, {
-                        fileName: "src/Navbar.jsx",
-                        lineNumber: 50,
-                        columnNumber: 11
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: "#projects",
-                        className: "block text-white",
-                        children: "Projects"
-                    }, void 0, false, {
-                        fileName: "src/Navbar.jsx",
-                        lineNumber: 51,
-                        columnNumber: 11
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: "#contact",
-                        className: "block text-white",
-                        children: "Contact"
-                    }, void 0, false, {
-                        fileName: "src/Navbar.jsx",
-                        lineNumber: 52,
+                        lineNumber: 33,
                         columnNumber: 11
                     }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "src/Navbar.jsx",
-                lineNumber: 49,
-                columnNumber: 9
-            }, undefined)
-        ]
-    }, void 0, true, {
+                }, void 0, false, {
+                    fileName: "src/Navbar.jsx",
+                    lineNumber: 29,
+                    columnNumber: 9
+                }, undefined),
+                isMobileMenuOpen && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "md:hidden mt-4 bg-blue-500 space-y-4 px-6 py-4",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            href: "#about",
+                            className: "block text-white",
+                            children: "About"
+                        }, void 0, false, {
+                            fileName: "src/Navbar.jsx",
+                            lineNumber: 51,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            href: "#projects",
+                            className: "block text-white",
+                            children: "Projects"
+                        }, void 0, false, {
+                            fileName: "src/Navbar.jsx",
+                            lineNumber: 52,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            href: "#contact",
+                            className: "block text-white",
+                            children: "Contact"
+                        }, void 0, false, {
+                            fileName: "src/Navbar.jsx",
+                            lineNumber: 53,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/Navbar.jsx",
+                    lineNumber: 50,
+                    columnNumber: 9
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "src/Navbar.jsx",
+            lineNumber: 12,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false, {
         fileName: "src/Navbar.jsx",
         lineNumber: 11,
         columnNumber: 5

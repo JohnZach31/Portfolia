@@ -163,7 +163,6 @@
   }
 
   img, svg, video, canvas, audio, iframe, embed, object {
-    vertical-align: middle;
     display: block;
   }
 
@@ -403,8 +402,16 @@
     margin-top: calc(var(--spacing) * 4);
   }
 
+  .mt-5 {
+    margin-top: calc(var(--spacing) * 5);
+  }
+
   .mt-10 {
     margin-top: calc(var(--spacing) * 10);
+  }
+
+  .mt-59 {
+    margin-top: calc(var(--spacing) * 59);
   }
 
   .block {
@@ -619,6 +626,18 @@
       }
     }
   }
+}
+
+@font-face {
+  font-family: m6x11;
+  font-style: normal;
+  src: url("m6x11.5a45c27f.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --font-m6x11: m6x11, "ui-monospace", "SFMono-Regular", "Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", "monospace";
 }
 
 @property --tw-rotate-x {

@@ -8,12 +8,15 @@ const Navbar = () => {
   };
 
   return (
+    <div class="mt-5 font-m6x11">
     <nav className="bg-blue-500 p-4 shadow-lg">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <div className="text-white text-2xl font-bold">
           My Portfolio
         </div>
+      </div>
+    
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6">
@@ -42,8 +45,6 @@ const Navbar = () => {
             />
           </svg>
         </button>
-      </div>
-
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
         <div className="md:hidden mt-4 bg-blue-500 space-y-4 px-6 py-4">
@@ -52,7 +53,8 @@ const Navbar = () => {
           <a href="#contact" className="block text-white">Contact</a>
         </div>
       )}
-    </nav>
+      </nav>
+    </div>
   );
 };
 
